@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Cover Letter Helper
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React-Firebase app for creating cover letter templates. It uses Google's Firebase Authentication to handle login and Firestore to save sections of a cover letter so job seekers can avoid redundant work and better organize descriptions of their achievements.
 
-## Available Scripts
+<p align="center" style="width:50%;">
+  <img src="./cover-letter-helper-pngs/title.png" ><br>
+</p>
 
-In the project directory, you can run:
+## Why I chose to create this app
+ For early career software developers, getting that first position is the hardest. Most people need to send out countless applications. Creating a cover letter can improve the quality of an application but they are time consuming to make.
 
-### `npm start`
+I found myself spending hours creating that perfect, polished and tailored cover letter and I frequently realized that I was writing about the same topics I already covered in previous cover letters.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Don't reinvent the wheel!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This app allows the user to save sections of cover letters they've already written and arrange them into new documents. Cover Letter Helper gives the user much more customization than simply using a generic Google Doc template.
 
-### `npm test`
+The new cover letter is previewed on the side and dynamically updated to reflect user changes.
+<p align="center" style="width:50%;">
+  <img src="./cover-letter-helper-pngs/main.png" ><br>
+</p>
+The user can easily use topics they've already written about.
+<p align="center" style="width:50%;">
+  <img src="./cover-letter-helper-pngs/options.png" ><br>
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+They can add, edit or delete entries.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="center" style="width:50%;">
+  <img src="./cover-letter-helper-pngs/edit.png" ><br>
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The app can substitute user input for details like their current designation or the name of the company they are applying for.
 
-### `npm run eject`
+<p align="center" style="width:50%;">
+  <img src="./cover-letter-helper-pngs/preview-edits.png" ><br>
+</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The user can then use the resulting document for applications or further customize it on their own.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Deployment coming soon!
